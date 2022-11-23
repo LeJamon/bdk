@@ -20,7 +20,7 @@ use bitcoin::blockdata::script::Instruction;
 use bitcoin::consensus::encode::serialize;
 use bitcoin::hashes::{sha256, sha512, Hmac, HmacEngine};
 use bitcoin::secp256k1::ecdh::SharedSecret;
-use bitcoin::secp256k1::key::{PublicKey, SecretKey};
+use bitcoin::secp256k1::{PublicKey, SecretKey};
 
 use bitcoin::util::base58;
 use bitcoin::util::bip32;
